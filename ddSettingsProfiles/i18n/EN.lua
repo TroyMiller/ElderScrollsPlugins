@@ -6,7 +6,7 @@
 ZO_CreateStringId("DDSP_MONIKER", "Deome's Settings Profiles (Updated by Trymi: ")
 ZO_CreateStringId("DDSP_DEBUG", "Deome's Settings Profiles Debug: ")
 ZO_CreateStringId("DDSP_LOADED", "Deome's Settings Profiles loaded.")
-ZO_CreateStringId("DDSP_LAM2_NAME", "Deome's Settings Profiles")
+ZO_CreateStringId("DDSP_LAM2_NAME", "Deome's Settings Profiles (Updated by Trymi)")
 ZO_CreateStringId("DDSP_LAM2_AUTHOR", "T.Miller (@trymi) and D. Deome (@deome) - heydeome@gmail.com")
 ZO_CreateStringId("DDSP_LAM2_NOTIFY_NAME", "Enable Notifications")
 ZO_CreateStringId("DDSP_LAM2_NOTIFY_TIP", "Enable standard addon notifications.")

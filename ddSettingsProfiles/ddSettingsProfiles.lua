@@ -4,6 +4,7 @@ local									VERSION = "1.06"										--
 --																								--
 --		Added additional settings and updated with Morrowind Patch								--
 --		2017 T. Miller (@trymi) - godkills@gmail.com											--
+--		https://github.com/TroyMiller/ElderScrollsPlugins/tree/master/ddSettingsProfiles        --
 --		Deome did the hardwork, I just added the fields to the framework						--
 
 --------------------------------   Deome's Settings Profiles   -----------------------------------
