@@ -1,6 +1,6 @@
 --------------------------------------------------------------------------------------------------
 --------------------------------   Trymi Settings Profiles (Deome's updated')   ------------------
-local									VERSION = "1.06"										--
+local									VERSION = "1.08"										--
 --																								--
 --		Added additional settings and updated with Morrowind Patch								--
 --		2017 T. Miller (@trymi) - godkills@gmail.com											--

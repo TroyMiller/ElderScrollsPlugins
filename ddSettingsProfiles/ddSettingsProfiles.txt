@@ -1,7 +1,8 @@
-## Title: Deome's Settings Profiles
+## Title: Deome's Settings Profiles (Updated by Trymi)
 ## Author: D. Deome (@deome) - heydeome@gmail.com
-## APIVersion: 100011
-## Version 1.05
+## Author: T. Miller (@trymi) - godkills@gmail.com
+## APIVersion: 100019
+## Version 1.08
 
 ## SavedVariables: ddSettingsProfiles_SV
 ## OptionalDependsOn: LibStub LibAddonMenu-2.0 BugEater
