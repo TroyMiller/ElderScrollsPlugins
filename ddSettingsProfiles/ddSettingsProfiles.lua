@@ -248,6 +248,9 @@ function ddSettingsProfiles:SaveProfile(profileName)
 	--Used for Options_Nameplates_AllianceIndicators
 	t3 = {[1]=1, [7]=2, [6]=3, [4]=4,}
 
+	--Used for Options_Nameplates_xxxxx_HB
+	t4 = {[1]=1, [8]=2, [3]=3, [9]=4, [2]=5,}
+
 
 	local optionsSettings = {
 --[[	
@@ -380,20 +383,20 @@ function ddSettingsProfiles:SaveProfile(profileName)
 		["Options_Nameplates_AllHB"] 					= Options_Nameplates_AllHB.data.value,
 		["Options_Nameplates_HealthbarChaseBar"] 		= Options_Nameplates_HealthbarChaseBar.data.value,
 		["Options_Nameplates_HealthbarFrameBorder"] 	= Options_Nameplates_HealthbarFrameBorder.data.value,
-		["Options_Nameplates_HealthbarAlignment"] 		= Options_Nameplates_HealthbarAlignment.data.currentChoice - 10,
-		["Options_Nameplates_PlayerHB"] 				= Options_Nameplates_PlayerHB.data.currentChoice + 1,
+		["Options_Nameplates_HealthbarAlignment"] 		= Options_Nameplates_HealthbarAlignment.data.currentChoice - 9,
+		["Options_Nameplates_PlayerHB"] 				= t4[Options_Nameplates_PlayerHB.data.currentChoice],
 		["Options_Nameplates_PlayerHBDimmed"] 			= t1[Options_Nameplates_PlayerHBDimmed.data.currentChoice],
-		["Options_Nameplates_GroupMemberHB"] 			= Options_Nameplates_GroupMemberHB.data.currentChoice + 1,
-		["Options_Nameplates_GroupMemberHBDimmed"]		= Options_Nameplates_GroupMemberHBDimmed.data.currentChoice + 1,
-		["Options_Nameplates_FriendlyNPCHB"] 			= Options_Nameplates_FriendlyNPCHB.data.currentChoice + 1,
+		["Options_Nameplates_GroupMemberHB"] 			= t4[Options_Nameplates_GroupMemberHB.data.currentChoice],
+		["Options_Nameplates_GroupMemberHBDimmed"]		= t2[Options_Nameplates_GroupMemberHBDimmed.data.currentChoice],
+		["Options_Nameplates_FriendlyNPCHB"] 			= t4[Options_Nameplates_FriendlyNPCHB.data.currentChoice],
 		["Options_Nameplates_FriendlyNPCHBDimmed"] 		= t2[Options_Nameplates_FriendlyNPCHBDimmed.data.currentChoice],
-		["Options_Nameplates_FriendlyPlayerHB"] 		= Options_Nameplates_FriendlyPlayerHB.data.currentChoice + 1,
+		["Options_Nameplates_FriendlyPlayerHB"] 		= t4[Options_Nameplates_FriendlyPlayerHB.data.currentChoice],
 		["Options_Nameplates_FriendlyPlayerHBDimmed"] 	= t2[Options_Nameplates_FriendlyPlayerHBDimmed.data.currentChoice],
-		["Options_Nameplates_NeutralNPCHB"] 			= Options_Nameplates_NeutralNPCHB.data.currentChoice + 1,
+		["Options_Nameplates_NeutralNPCHB"] 			= t4[Options_Nameplates_NeutralNPCHB.data.currentChoice],
 		["Options_Nameplates_NeutralNPCHBDimmed"] 		= t2[Options_Nameplates_NeutralNPCHBDimmed.data.currentChoice],
-		["Options_Nameplates_EnemyNPCHB"] 				= Options_Nameplates_EnemyNPCHB.data.currentChoice + 1,
+		["Options_Nameplates_EnemyNPCHB"] 				= t4[Options_Nameplates_EnemyNPCHB.data.currentChoice],
 		["Options_Nameplates_EnemyNPCHBDimmed"] 		= t2[Options_Nameplates_EnemyNPCHBDimmed.data.currentChoice],
-		["Options_Nameplates_EnemyPlayerHB"] 			= Options_Nameplates_EnemyPlayerHB.data.currentChoice + 1,
+		["Options_Nameplates_EnemyPlayerHB"] 			= t4[Options_Nameplates_EnemyPlayerHB.data.currentChoice],
 		["Options_Nameplates_EnemyPlayerHBDimmed"] 		= t2[Options_Nameplates_EnemyPlayerHBDimmed.data.currentChoice],
 		["Options_Nameplates_AllianceIndicators"] 		= t3[Options_Nameplates_AllianceIndicators.data.currentChoice],
 		["Options_Nameplates_GroupIndicators"] 			= Options_Nameplates_GroupIndicators.data.value,
